@@ -9,21 +9,10 @@ public class loop_3 {
         String letters = "abcdefghijklmnopqrstuvwxyz";
         String phrase = "This is a phrase!";
         //  System.out.println("The following shows the letter frequencies for the phrase");
+
         for (int i = 0; i < letters.length(); i++) {
-              char kk=letters.charAt(i);
 
-              int counter=0;
-
-            for(int j=0;j<phrase.length();i++){
-
-            counter=counter+phrase.charAt(j);
-
-            if(kk==counter){
-              counter++;
-
-            }
-
-
+            for (int j = 0; j < phrase.length(); i++) {
 
 
 
@@ -33,9 +22,10 @@ public class loop_3 {
 
 
         }
-    }
 
+    }
 }
+
 
 
 
