@@ -11,7 +11,7 @@ public class loop_8 {
         String name1 = "anna";
         String rev = "";
 
-        for (int i = name1.length() - 1; i >= 0; i--) {
+        for (int i = name1.length()-1; i >= 0; i--) {
 
             rev = rev + name1.charAt(i);
 
